@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: ${{ 'ProjectG555/index.html' }}
+  IMAGE_NAME: ${{ 'ProjectG555/nginx-html' }}
 
 jobs:
   build-and-push:
